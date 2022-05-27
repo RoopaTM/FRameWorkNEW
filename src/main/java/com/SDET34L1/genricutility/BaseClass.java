@@ -38,6 +38,7 @@ public class BaseClass {
 	/**
 	 * This method use to open the excel,propertyfile,Getconnection with datbase.
 	 * @throws Throwable
+	 * 
 	 */
 	@BeforeSuite(groups="baseClass")
 	public void beforeSuite() throws Throwable{
@@ -49,6 +50,7 @@ public class BaseClass {
 	/**
 	 * This method use to open the class,lanuch the browser navigate the application fetch the data from propertyfile  and browser Setting instance of common POM class
 	 * @throws IOException
+	 * dute nonstatic create object in the @beforeClass 
 	 */
 
 	//@Parameters(value="browser")
