@@ -12,6 +12,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import com.vtiger.ObjectRep.HomePage;
 import com.vtiger.ObjectRep.LoginPage;
@@ -45,6 +46,13 @@ public class BaseClass {
 
 
 
+	}
+	/**
+	 * BeforeTest added to the  Basic configuration 
+	 */
+	@BeforeTest
+	public void beforeTest() {
+		
 	}
 
 	/**
