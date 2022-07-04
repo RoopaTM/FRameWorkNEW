@@ -1,4 +1,4 @@
-package com.SDET34L1.genricutility;
+ package com.SDET34L1.genricutility;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

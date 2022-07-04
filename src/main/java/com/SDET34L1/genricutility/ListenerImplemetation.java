@@ -22,6 +22,7 @@ public class ListenerImplemetation implements ITestListener {
 		spark.config().setDocumentTitle("DocumentTitle");
 		spark.config().setTheme(Theme.DARK);
 		spark.config().setReportName("ReportName");
+	
 		
 		 report = new ExtentReports();
 		report.attachReporter(spark);

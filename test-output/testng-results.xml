@@ -2,46 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-27T09:23:40 IST" name="Default suite" finished-at="2022-05-27T09:24:02 IST" duration-ms="22034">
+  <suite started-at="2022-07-02T20:31:18 IST" name="Default suite" finished-at="2022-07-02T20:31:27 IST" duration-ms="9217">
     <groups>
-      <group name="regression">
-        <method signature="CreateContactsTest.createContactsTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" name="createContactsTest" class="com.vtiger.contactsTest.CreateContactsTest"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="CreateContactsTest.createContactsTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" name="createContactsTest" class="com.vtiger.contactsTest.CreateContactsTest"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-05-27T09:23:40 IST" name="Default test" finished-at="2022-05-27T09:24:02 IST" duration-ms="22034">
-      <class name="com.vtiger.contactsTest.CreateContactsTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" started-at="2022-05-27T09:23:40 IST" name="beforeSuite" finished-at="2022-05-27T09:23:40 IST" duration-ms="31" status="PASS">
+    <test started-at="2022-07-02T20:31:18 IST" name="Default test" finished-at="2022-07-02T20:31:27 IST" duration-ms="9217">
+      <class name="com.vtiger.practice.HidenDivsionPopupTest">
+        <test-method signature="calenderTest()[pri:0, instance:com.vtiger.practice.HidenDivsionPopupTest@7c6442c2]" started-at="2022-07-02T20:31:18 IST" name="calenderTest" finished-at="2022-07-02T20:31:27 IST" duration-ms="8858" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforClass()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" started-at="2022-05-27T09:23:40 IST" name="beforClass" finished-at="2022-05-27T09:23:49 IST" duration-ms="8812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforClass -->
-        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" started-at="2022-05-27T09:23:49 IST" name="beforMethod" finished-at="2022-05-27T09:23:51 IST" duration-ms="2554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforMethod -->
-        <test-method signature="createContactsTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" started-at="2022-05-27T09:23:52 IST" name="createContactsTest" finished-at="2022-05-27T09:24:00 IST" duration-ms="8809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method is-config="true" signature="afterMethpd()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" started-at="2022-05-27T09:24:00 IST" name="afterMethpd" finished-at="2022-05-27T09:24:02 IST" duration-ms="1288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethpd -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" started-at="2022-05-27T09:24:02 IST" name="afterClass" finished-at="2022-05-27T09:24:02 IST" duration-ms="156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.vtiger.contactsTest.CreateContactsTest@15dd5ac2]" started-at="2022-05-27T09:24:02 IST" name="afterSuite" finished-at="2022-05-27T09:24:02 IST" duration-ms="294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.vtiger.contactsTest.CreateContactsTest -->
+        </test-method> <!-- calenderTest -->
+      </class> <!-- com.vtiger.practice.HidenDivsionPopupTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

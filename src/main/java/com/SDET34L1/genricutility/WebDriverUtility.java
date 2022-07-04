@@ -8,6 +8,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -128,7 +129,7 @@ public class WebDriverUtility {
 		for(String id:sessionIDs)
 		{
 			driver.switchTo().window(id);
-			if(driver.getTitle().contains(partialText));{
+			if(driver.getTitle().contains(partialText)){
 				break;
 			}
 		}
@@ -279,6 +280,12 @@ public class WebDriverUtility {
 		}
 		return dst.getAbsolutePath();
 
+	}
+	
+	public void alert(WebDriver driver) {
+		Alert a = driver.switchTo().alert();
+		a.accept();
+		
 	}
 	
 	

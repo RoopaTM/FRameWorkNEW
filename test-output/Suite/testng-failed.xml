@@ -1,24 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.SDET34L1.genricutility.ListenerImplemetation"/>
-    <listener class-name="com.SDET34L1.genricutility.RetryAnalyserListnerImplementaion"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test2(failed)">
     <classes>
-      <class name="com.vtiger.productTest.CreateProductTest">
+      <class name="com.vtiger.organizationTest.DeleteOrganization2Test">
         <methods>
+          <include name="deleteOrganization2Test"/>
           <include name="beforClass"/>
           <include name="beforeSuite"/>
-          <include name="createProductTest"/>
           <include name="afterClass"/>
+          <include name="beforeTest"/>
           <include name="afterSuite"/>
           <include name="beforMethod"/>
           <include name="afterMethpd"/>
         </methods>
-      </class> <!-- com.vtiger.productTest.CreateProductTest -->
+      </class> <!-- com.vtiger.organizationTest.DeleteOrganization2Test -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.organizationTest.DeleteOrganization2Test">
+        <methods>
+          <include name="deleteOrganization2Test"/>
+          <include name="beforClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforMethod"/>
+          <include name="afterMethpd"/>
+        </methods>
+      </class> <!-- com.vtiger.organizationTest.DeleteOrganization2Test -->
     </classes>
   </test> <!-- Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="com.vtiger.organizationTest.DeleteOrganization2Test">
+        <methods>
+          <include name="deleteOrganization2Test"/>
+          <include name="beforClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforMethod"/>
+          <include name="afterMethpd"/>
+        </methods>
+      </class> <!-- com.vtiger.organizationTest.DeleteOrganization2Test -->
+    </classes>
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->

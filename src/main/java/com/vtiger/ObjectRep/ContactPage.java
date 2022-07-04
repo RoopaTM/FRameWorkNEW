@@ -21,5 +21,7 @@ public class ContactPage {
 		createNewContactBtn.click();
 		
 	}
+	
+	
 
 }

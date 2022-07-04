@@ -75,12 +75,12 @@ public class BaseClass {
 		password=System.getProperty("PASSWORD");
 		
 		msExcelUtility.openExcel(IconstantPath.EXCELPATH);
-		//url = propertyFileUtility.getDataFromPropertFile("url");
+		url = propertyFileUtility.getDataFromPropertFile("url");
 		System.out.println(url);
-		//username=propertyFileUtility.getDataFromPropertFile("username");
+		username=propertyFileUtility.getDataFromPropertFile("username");
 		System.out.println(username);
-		//password =propertyFileUtility.getDataFromPropertFile("pasword");
-		//browser = propertyFileUtility.getDataFromPropertFile("browser");
+		password =propertyFileUtility.getDataFromPropertFile("pasword");
+		browser = propertyFileUtility.getDataFromPropertFile("browser");
 		String timeout = propertyFileUtility.getDataFromPropertFile("timeout");
 		timeouts = jutil.stringToLong(timeout);
 		Random = jutil.getRandomNumber(1000);

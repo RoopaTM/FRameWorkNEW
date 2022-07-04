@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 public class CreateNewProductPage {
 	@FindBy(xpath = "//input[@name='productname']")
 	private WebElement productNameTxt;
-	@FindBy(xpath = "//b[.='Product Information']/../../preceding-sibling::tr//div//input[@title='Save [Alt+S]']")
+	@FindBy(xpath = "//b[.='Product Information']/ancestor::tr/preceding-sibling::tr//div//input[@title='Save [Alt+S]']")
 	private WebElement productsaveBtn;
 	
 	public CreateNewProductPage(WebDriver driver)	{

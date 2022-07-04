@@ -1,7 +1,6 @@
 package com.vtiger.ObjectRep;
 
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -15,10 +14,12 @@ import com.SDET34L1.genricutility.WebDriverUtility;
 
 public class CreateNewOrganizationPage {
 	WebDriverUtility webDriverUtility=new WebDriverUtility();
+	
+	
 	@FindBy(xpath = "//input[@name='accountname']")
 	private WebElement organizationTxt;
 	
-	@FindBy(xpath = "//input[@accesskey='S']")
+	@FindBy(xpath = "//b[.='Organization Information']/ancestor::tr/preceding-sibling::tr//div//input[@title='Save [Alt+S]']")
 	private WebElement saveBtn;
 	
 	@FindBy(name = "industry")
