@@ -22,10 +22,6 @@ public class DataProviderToFetchTheMulltipleDataFromExcel {
 	public Object[][] loginData() throws IOException{
 		MsExcelUtility msExcelUtility = new MsExcelUtility();
 		msExcelUtility.openExcel(IconstantPath.EXCELPATH);
-		
-		
-		
-	
 		return msExcelUtility.getMultipleDataFromExcel("Multiple");
 	}
 
